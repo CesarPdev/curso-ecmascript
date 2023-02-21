@@ -1,0 +1,3 @@
+const array = ["zero", "one", "two", "three", "four", "five", "six"]; // Si tenemos un array del cual no sabemos cuál es su longitud...
+console.log(array[array.length - 1]); // Esta era la manera tradicional de acceder al último elemento. A la longitud del array le restamos 1
+console.log(array.at(-1)); // Nos permite acceder al último elemento sin saber cuál es la longitud. Actualización de ES13
